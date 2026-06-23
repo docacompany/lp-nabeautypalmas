@@ -155,10 +155,10 @@ a {
 }
 
 .hero h1 {
-  width: min(920px, 100%);
-  margin: 22px auto 18px;
-  font-size: clamp(2.35rem, 6.6vw, 5.95rem);
-  line-height: 0.98;
+  width: min(900px, 100%);
+  margin: 22px auto 16px;
+  font-size: clamp(2.9rem, 4.8vw, 5.15rem);
+  line-height: 0.99;
   letter-spacing: 0;
   text-wrap: balance;
 }
@@ -182,11 +182,11 @@ a {
 
 .hero-actions {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 18px;
-  flex-wrap: wrap;
-  margin-top: 38px;
+  gap: 16px;
+  margin-top: 34px;
   width: 100%;
 }
 
